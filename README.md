@@ -26,7 +26,7 @@ The work flow would be:
 
 ## ghost_finder.py
 
-You point this at a folder, and it recursively logs every file name / path, and collects the MD5 of every path. 
+You point this at a folder, and it recursively logs every file name / path, and collects the MD5 of every file it finds. 
 
 Results in a text file [my_filename].log that contains newline seperated entreies for each file. 
 
