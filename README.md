@@ -14,15 +14,15 @@ This tool is excellent used in conjuntion with rePeater, which allows a set of f
 
 The work flow would be: 
 
-log a file set with ghost_finder.py
+.log a file set with ghost_finder.py
 
-Rebuild a new version with ghost_maker.py
+.Rebuild a new version with ghost_maker.py
 
-Use file_harmoniser to figure out the changes you need to make - repeat until acceptanble results. 
+.Use file_harmoniser to figure out the changes you need to make - repeat until acceptable results are found. 
 
-Use rePeater to capture those moves. 
+.Use rePeater to capture those changes. 
 
-Use rePeater to replay the moves on the oroginal fileset. 
+.Use rePeater to replay the changes on the original fileset. 
 
 ## ghost_finder.py
 
