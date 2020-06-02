@@ -1,12 +1,28 @@
-# Ghost_Collections
+# Ghost Collections
 
 A tool that builds a low data version of any folder based filestore based on folder names, file names and fixity.
 
 This tool is based on reArranger. https://github.com/jayGattusoNLNZ/reArranger  
 
-This tool is excellent for rehursing file organisation moves before committing them to real files. 
+This tool is excellent for rehearsing file organisation moves before committing them to real files. 
 
 This tool is excellent used in conjuntion with files_harmoniser, supporting the comparison of 2 folders, looking for duplicates and new files. https://github.com/jayGattusoNLNZ/files_harmoniser 
+
+This tool is excellent used in conjuntion with rePeater, which allows a set of file mamangement operations to be logged, and repeated. https://github.com/jayGattusoNLNZ/rePeater 
+
+### Example workflow
+
+The work flow would be: 
+
+log a file set with ghost_finder.py
+
+Rebuild a new version with ghost_maker.py
+
+Use file_harmoniser to figure out the changes you need to make - repeat until acceptanble results. 
+
+Use rePeater to capture those moves. 
+
+Use rePeater to replay the moves on the oroginal fileset. 
 
 ## ghost_finder.py
 
